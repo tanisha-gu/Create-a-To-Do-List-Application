@@ -108,6 +108,8 @@ Exiting application. Goodbye!
 ```
 _________________----------------------------------------------------------------------------------------------------------------------_____________________________________
 #### Future Enhancements
+________________________
+
 - Task editing functionality
 - Task prioritization
 - Due dates and reminders
