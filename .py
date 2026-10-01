@@ -3,7 +3,7 @@ import json
 import os
 #main code 
 TASKS_FILE = "tasks.json"
-
+#load tasks here
 def load_tasks():
     """Load tasks from JSON file"""
     if os.path.exists(TASKS_FILE):
@@ -25,7 +25,7 @@ def add_task(tasks):
         print("Task added successfully!")
     else:
         print("Task description cannot be empty.")
-
+#view task here 
 def view_tasks(tasks):
     """Display all tasks with numbering"""
     if not tasks:
