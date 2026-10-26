@@ -35,7 +35,7 @@ def view_tasks(tasks):
     print("\nYour Tasks:")
     for i, task in enumerate(tasks, 1):
         print(f"{i}. {task}")
-
+#here remove task condition work 
 def remove_task(tasks):
     """Remove a task by index"""
     if not tasks:
@@ -53,7 +53,7 @@ def remove_task(tasks):
             print("Invalid task number.")
     except ValueError:
         print("Please enter a valid number.")
-
+ #main funcition
 def main():
     """Main application loop"""
     tasks = load_tasks()
@@ -66,7 +66,7 @@ def main():
         print("4. Exit")
         
         choice = input("Enter your choice: ").strip()
-        
+        #if condition  accoding to task 
         if choice == '1':
             add_task(tasks)
         elif choice == '2':
